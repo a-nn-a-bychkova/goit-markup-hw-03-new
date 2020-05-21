@@ -43,8 +43,7 @@ html {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  max-width: 1600px;
-  outline: 2px dotted teal;
+  /* outline: 2px dotted teal; */
 }
 
 .list {
@@ -63,7 +62,7 @@ html {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px dotted red;
+  /* outline: 2px dotted red; */
 }
 
 .visually-hidden {
@@ -136,10 +135,6 @@ h6 p {
 }
 
 /*header*/
-
-.page-header {
-  max-width: 1600px;
-}
 
 .header-container {
   display: flex;
@@ -232,8 +227,7 @@ h6 p {
 
 .footer-container {
   display: flex;
-  /* justify-content: space-between; */
-  outline: 2px dotted green;
+  /* outline: 2px dotted green; */
 }
 
 .footer-contacts {
@@ -242,7 +236,7 @@ h6 p {
 }
 
 .footer-contacts > .logo {
-  display: block;
+  display: inline-block;
   margin-bottom: 10px;
 }
 
@@ -251,7 +245,7 @@ h6 p {
 }
 
 .googlemaps {
-  display: block;
+  display: inline-block;
   margin-bottom: 9px;
   font-size: 14px;
   line-height: 2;
@@ -259,14 +253,14 @@ h6 p {
 }
 
 .contacts .information {
-  display: block;
+  display: inline-block;
   font-weight: 400;
   line-height: 2;
   color: var(--footer-contacts);
 }
 
 .contacts > .mail {
-  display: block;
+  display: inline-block;
   margin-bottom: 9px;
 }
 
@@ -320,7 +314,7 @@ footer button {
   line-height: 2;
   text-align: center;
   color: var(--footer-copyright);
-  outline: 2px dotted red;
+  /* outline: 2px dotted red; */
 }
 .copyright-text {
   margin: 0;

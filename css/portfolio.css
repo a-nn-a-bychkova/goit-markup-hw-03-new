@@ -9,7 +9,9 @@
 }
 
 .portfolio-section {
+  padding-top: 93px;
   padding-bottom: 0;
+  border-top: 1px solid #ececec;
 }
 
 /*фильтр*/
@@ -21,7 +23,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px dotted olivedrab;
+  /* outline: 2px dotted olivedrab; */
 }
 
 .filter button {
@@ -57,7 +59,7 @@
 
 .galery {
   flex-wrap: wrap;
-  outline: 2px dotted mediumspringgreen;
+  /* outline: 2px dotted mediumspringgreen; */
 }
 
 .examples {

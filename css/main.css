@@ -47,7 +47,6 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  border: 2px dotted red;
 }
 
 .advantages .item {
@@ -81,6 +80,11 @@
 }
 
 /*what.we.do*/
+
+.what-we-do {
+  border-top: 1px solid #ececec;
+}
+
 .what-we-do-container {
   display: block;
 }
@@ -93,16 +97,38 @@
   display: flex;
 }
 
+.app-image {
+  display: block;
+  border-radius: none;
+}
+
+.applications-card .link {
+  display: block;
+}
+
+.applications > .item {
+}
+
 .applications .item + .item {
   margin-left: 30px;
 }
 
 .applications .applications-type {
+  padding-top: 27px;
+  padding-bottom: 27px;
+
+  text-align: center;
+
   color: var(--primary-white-color);
   background-color: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /*our-team*/
+
+.team-section {
+  background: #f5f4fa;
+}
 
 .our-team-container {
   display: block;
@@ -120,6 +146,8 @@
   display: block;
   max-width: 270px;
   padding-bottom: 24px;
+
+  background-color: var(--primary-white-color);
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
