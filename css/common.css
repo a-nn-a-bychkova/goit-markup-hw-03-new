@@ -43,7 +43,7 @@ html {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  width: 1600px;
+  max-width: 1600px;
   outline: 2px dotted teal;
 }
 
@@ -58,7 +58,7 @@ html {
 
 .container {
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -280,7 +280,7 @@ h6 p {
 }
 
 .subscribe {
-  width: 570px;
+  max-width: 570px;
 }
 
 .subscribe-title {
