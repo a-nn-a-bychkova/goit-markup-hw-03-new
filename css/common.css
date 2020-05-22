@@ -147,7 +147,7 @@ h6 p {
   align-items: center;
 }
 
-.logo {
+.nav-container__logo {
   margin-right: 85px;
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -156,7 +156,7 @@ h6 p {
   line-height: 1.2;
 }
 
-.studio-black {
+.nav-container__studio {
   color: var(--title-text-color);
 }
 
@@ -236,11 +236,11 @@ h6 p {
 }
 
 .footer-contacts > .logo {
-  display: inline-block;
+  display: block;
   margin-bottom: 10px;
 }
 
-.footer-contacts .studio-white {
+.nav-container__studio--white {
   color: var(--primary-white-color);
 }
 
